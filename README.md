@@ -9,10 +9,10 @@ http://www.webtoolkit.eu/wt
 sudo apt-get install witty witty-dev witty-doc witty-dbg witty-examples
 
 
-Feito pelos alunos:
-Daniele Rodrigues Martins
-Michael dos Santos Sim
-Sandra Regina Martins Gonçalves
+Feito pelos alunos: 
+Daniele Rodrigues Martins, 
+Michael dos Santos Sim, 
+Sandra Regina Martins Gonçalves, 
 Robson Santos Silva
 
 
