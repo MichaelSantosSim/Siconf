@@ -1,0 +1,146 @@
+<messages>
+
+	<message id="field">
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="${id:first-name}">
+				${label}
+			</label>
+			<div class="col-sm-5">
+				${field}
+			</div>
+			<div class="help-block col-sm-5">
+				${info}
+			</div>
+		</div>
+	</message>
+	
+	<message id="fieldset">
+		<legend>${title}</legend>
+		<div class="form-horizontal">
+			${form-group}
+		</div>
+	</message>
+	
+	<message id="dados_professor">
+	
+		<legend>${titulo}</legend>
+	
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2">Nome</label>
+				<div class="col-sm-5">${nome}</div>
+			</div>
+		</div>
+		
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2">E-Mail</label>
+				<div class="col-sm-5">${email}</div>
+			</div>
+		</div>
+		
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2">Login</label>
+				<div class="col-sm-5">${login}</div>
+			</div>
+		</div>
+		
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2">Materias</label>
+				<div class="col-sm-5">${materias}</div>
+			</div>
+		</div>
+	</message>
+	
+	<message id="form-usuario">
+		<legend>${titulo}</legend>
+		<div class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="${id:nome}">
+					Nome
+				</label>
+				<div class="col-sm-5">
+					${nome}
+				</div>
+				<div class="help-block col-sm-5">
+					${nome-info}
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="${id:sobre-nome}">
+					Sobrenome
+				</label>
+				<div class="col-sm-5">
+					${sobrenome}
+				</div>
+				<div class="help-block col-sm-5">
+					${sobrenome-info}
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="${id:email}">
+					Email
+				</label>
+				<div class="col-sm-5">
+					${email}
+				</div>
+				<div class="help-block col-sm-5">
+					${email-info}
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="${id:data-nascimento}">
+					Data de Nascimento
+				</label>
+				<div class="col-sm-5">
+					${data-nascimento}
+				</div>
+				<div class="help-block col-sm-5">
+					${data-nascimento-info}
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<input class="btn btn-info" value="salvar"></input>
+					<span class="help-inline"></span>
+				</div>
+			</div>
+		</div>
+	</message>
+	
+
+
+		<message id="testEnvironment">
+		
+		
+				<link href="css/testEnvironment.css" rel="stylesheet" type="text/css"/>
+		
+				<div class="ste_header">
+					Siconf Test Environment
+				</div>
+				<div class="ste_button-container">
+	
+					<div class="ste_button-bar-header">
+						Telas Disponiveis
+					</div>
+	
+					<div class="ste_button-bar">
+						${button-group}
+					</div>
+	
+					<div class="output-message">
+					Mensagem de Saida
+						<div class ="messageBox">
+							${output-message}
+						</div>
+					</div>
+	
+				</div>
+		</message>
+</messages>

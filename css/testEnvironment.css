@@ -1,0 +1,95 @@
+@font-face {
+   	font-family: Inconsolata; 
+  	 src: url('Inconsolata/Inconsolata-Bold.ttf');
+} 
+
+
+.ste_header{
+	min-width: 100%;
+	padding-top: 30px;
+	height: 100px;
+	background-color: black;
+	color: lime;
+	text-align: center;
+	font-size: 40px;
+	margin: 0, auto;
+	font-family: Inconsolata;
+	border: groove;
+	border-color: lime;
+	border-width: 5px;
+
+}
+
+.ste_button-bar-header{
+	background-color: black;
+	color: lime;
+	font-family: Inconsolata;
+	border: groove;
+	border-color: lime;
+	border-width: 5px;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.ste_button-container{
+	margin-top: 30px;
+	padding: 10px;
+	background-color: black;
+	min-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ste_button-bar{
+  display: block;
+  margin: 10px auto 10px auto;
+  padding: 3px;
+  min-width:1000px;
+  text-align: center;
+  height: 50px;
+  background-color: black;
+}
+
+.output-message{
+	background-color: black;
+	color: lime;
+	font-family: Inconsolata;
+	border: groove;
+	border-color: lime;
+	border-width: 5px;
+	font-size: 30px;
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.messageBox{
+	background-color: black;
+	color: lime;
+	font-family: Inconsolata;
+	border: groove;
+	border-color: lime;
+	border-width: 5px;
+	min-width: 200px;
+	max-width: 800px;
+	height: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.blackBackground{;
+	width: 100%;
+	height: 100vh;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: black;
+}
